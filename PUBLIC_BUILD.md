@@ -1,5 +1,21 @@
 # Public build
 
-Questa repository contiene l’interfaccia di Prompt Search ma **non contiene l’archivio personale di prompt**.
+Questa repository è la versione pubblica e sanitizzata di Prompt Search.
 
-Il master privato e la sua cronologia Git restano separati. Non copiare commit, file di backup o dati dal repository privato in questa repository.
+## Include
+- interfaccia HTML/CSS/JavaScript;
+- motore di ricerca;
+- Preferiti, Cestino, export e backup;
+- launcher HTML;
+- documentazione e asset grafici.
+
+## Non include
+- prompt del mio archivio personale;
+- file Markdown originali;
+- backup privati;
+- cartelle personali;
+- cronologia Git della repository privata.
+
+Nel file `PROMPT_SEARCH.html`, il blocco `prompt-data` è intenzionalmente vuoto.
+
+La repository pubblica è stata creata separatamente per evitare che contenuti privati possano essere recuperati da commit precedenti.
